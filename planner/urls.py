@@ -8,4 +8,5 @@ urlpatterns = patterns('',
 
                        url(r'^admin/', include(admin.site.urls)),
                        url(r'^dashboard', 'planner.views.dashboard.dashboard', name='dashboard'),
+                       url(r'^add_subject', 'planner.views.subjects.add_subject', name='add_subject'),
                        )
